@@ -1,0 +1,139 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.add-unit-item {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-unit-item__text {
+  margin-right: 0.5rem;
+}
+
+.army-summary {
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.app-title {
+  align-items: baseline;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.button {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 0 rgba(0,0,0,.08);
+  font-size: 1rem;
+  padding: 0.3rem 0.5rem;
+}
+
+.button--full-width {
+  width: 100%;
+}
+
+.empty-unit-item-list {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-bottom: 0.2rem;
+  padding-left: 0.5rem;
+}
+
+.empty-unit-list {
+  font-style: italic;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.unit {
+  margin-bottom: 1rem;
+}
+
+.unit-list {
+  list-style-type: none;
+  margin: 0 0 1rem;
+  padding-left: 0;
+}
+
+.unit-item {
+  display: flex;
+  padding: 0.2rem 0.5rem;
+}
+
+.unit-item__name {
+  flex-grow: 1;
+  margin-right: 0.5rem;
+}
+
+.unit-item__cost {
+  margin-right: 0.5rem;
+}
+
+.unit-item-list {
+  list-style-type: none;
+  margin-bottom: 0.2rem;
+  padding-left: 0;
+}
+
+.unit-items-title {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+  padding-left: 0.5rem;
+}
+
+.unit-item:nth-child(odd) {
+  background-color: #eee;
+}
+
+.unit-items {
+  margin-bottom: 0.5rem;
+}
+
+.unit-summary {
+  border-bottom: 1px solid #333;
+  display: flex;
+  margin-bottom: 0.2rem;
+}
+
+.unit-summary__name {
+  flex-grow: 1;
+  margin-right: 0.5rem;
+}
+
+.unit-summary__cost {
+  margin-right: 0.5rem;
+}
+
+@media screen and (min-width: 800px) { 
+  main {
+    max-width: 50vw;
+  }
+}
+
+@media screen and (min-width: 1200px) { 
+  main {
+    max-width: 35vw;
+  }
+}
