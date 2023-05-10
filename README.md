@@ -2,7 +2,7 @@ An army builder for [Double Tap](https://drive.google.com/open?id=1W5Xo3zw46IFUH
 
 To run:
 ```
-npm start
+npm run dev
 ```
 
 To build:
